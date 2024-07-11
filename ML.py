@@ -71,8 +71,3 @@ print("Recall:", recall)
 print("F1-Score:", f1)
 print("AUC-ROC:", auc_roc)
 
-#Q-learning
-
-#R-learning
-
-#TD-learning
