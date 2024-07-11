@@ -1,7 +1,4 @@
-#---------------(supervised learning)-----------------------------------------------------------
-#Regression
-#(1)linear/ logistic regression
-#(1-1)linear regression
+#(1)linear regression
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -31,7 +28,7 @@ results = model_regr.fit()
 print(results.summary())
 
 
-#(1-2)logistic regression
+#(2)logistic regression
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -74,48 +71,6 @@ print("Recall:", recall)
 print("F1-Score:", f1)
 print("AUC-ROC:", auc_roc)
 
-#(2)lasso/ridge regression
-
-
-
-#(3)support vector regression
-
-#(4)decision tree regression
-
-#(5)Neural Network regression
-
-
-
-
-
-#classification
-#(1)random forest
-
-#(2)K-nearest neighbors
-
-#(3)decision tree
-
-#(4)Naive Bayes
-
-#(5)support vector machines
-
-
-
-
-#---------------(unsupervised learning_)-------------
-#clustering
-
-#(1)K-meams
-
-#(2)Mean-shift
-
-#(3)DBSCAN
-
-#(4)Agglomerative hierarchical 
-
-#(5)Gaussian mixtures
-
-#---------------(reinforcement learning)-----------------
 #Q-learning
 
 #R-learning
