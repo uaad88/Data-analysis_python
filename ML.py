@@ -7,7 +7,7 @@ import seaborn as sns
 import statsmodels.api as sm
 
 #input dataset
-NK_AML=pd.DataFrame(pd.read_csv(r"D:/Python/(6) machine learning/AML_nk_80_ID.csv"))
+NK_AML=pd.DataFrame(pd.read_csv(r"your paths"))
 
 #check the column names
 NK_AML_02=pd.DataFrame(NK_AML.columns.values.tolist())
