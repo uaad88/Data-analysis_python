@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 
 #input the data
-NK_AML=pd.DataFrame(pd.read_csv(r"D:/Python/(2)python_coding skills/AML_nk_80_ID.csv"))#80
-NK_AML_sample=pd.DataFrame(pd.read_csv(r"D:/Python/(2)python_coding skills/data_clinical_sample.csv"))
+NK_AML=pd.DataFrame(pd.read_csv(r"your paths"))#80
+NK_AML_sample=pd.DataFrame(pd.read_csv(r"your paths"))
 
 #Pie chart
 month=np.array(NK_AML['DFS_STATUS_01'])
