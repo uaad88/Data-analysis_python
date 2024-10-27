@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sea
-NK_AML=pd.DataFrame(pd.read_csv(r"D:/Python/(2)python_coding skills/AML_nk_80_ID.csv"))
-NK_AML_sample=pd.DataFrame(pd.read_csv(r"D:/Python/(2)python_coding skills/data_clinical_sample.csv"))
+NK_AML=pd.DataFrame(pd.read_csv(r"your paths"))
+NK_AML_sample=pd.DataFrame(pd.read_csv(r"your paths"))
 
 #---------------(data cleaning)-----------------------------------------------------------------------
 #(1)dimension
